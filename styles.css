@@ -1,0 +1,96 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Arial';
+    color: #1D3557;
+}
+
+img {
+    width: 100px;
+}
+h4 {
+    font-size: 16px;
+    font-weight: 700;
+}
+h3 {
+    font-size: 24px;
+    font-weight: 700;
+}
+p{
+    font-weight: 400;
+}
+.hero {
+    background-image: url("images/IMG_20211220_145546.jpg");
+    background-size: cover;
+    margin: 0;    
+    font-style: normal;
+    font-weight: bold;
+    color: #FFFFFF; 
+    padding: 168px 182px;
+}
+
+.activities {
+    background: #F1FAEE;
+    margin: 0;
+    padding-top: 20px; 
+}
+.activ-img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+#ah {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+#oslo {
+    font-size: 18px;
+    background: #1D3557;
+    border-radius: 10px;
+    width: 450px;
+    margin: 10px auto 0 auto;
+}
+#visit{
+    font-size: 32px;    
+    width: 400px;
+    margin: 0px auto 10px auto;
+    background: #457B9D;
+    border-radius: 10px;
+}
+.rect {
+    background: blue;
+    width: 400px;
+    background: #A8DADC;
+    border-radius: 10px;
+    margin: 50px auto;
+    padding: 23px 13px;
+    display: flex;
+}
+#avatar {
+    width: 180px;
+    border-radius: 10px;
+}
+#quote{
+    font-style: italic;
+    font-weight: 400;
+    font-size: 16px;    
+}
+a {
+    color: #1D3557;
+    text-decoration: none;
+}
+a:hover{
+    color: red;
+}
